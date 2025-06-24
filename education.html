@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>education</title>
+
+  <style>
+    body {
+      background-image: url(images/cloud.jpg);
+      font-family: 'cooperblack', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      display: flex;
+      background-color: lightblue;
+      font-family: cooperblack; 
+      justify-content: center;
+      border: 3px solid transparent; 
+      border-top: 3px solid black;
+      border-bottom: 3px solid black;
+    }
+
+    .navbar a {
+      padding: 14px 20px;
+      text-decoration: none;
+      color: black;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      background-color: lightgray;
+    }
+
+    .section {
+      margin-bottom: 60px;
+      align-content: center;
+    }
+
+     .grid-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      text-align: center;
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      align-items: center;
+    }
+
+    .card p {
+      margin-top: 10px;
+      font-weight: bold;
+      align-items: center;
+    }
+
+    .container {
+      width: 90%;
+      margin: 40px auto;
+    }
+
+    .box {
+      display: flex;
+      align-items: center;
+      background-color: #f2f2f2;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 40px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .box img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .box .text {
+      padding: 20px;
+    }
+
+    .box h2 {
+      margin-top: 0;
+    }
+
+    .reverse {
+      flex-direction: row-reverse;
+    }
+
+    @media (max-width: 768px) {
+      .box, .reverse {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .box img {
+        width: 90%;
+        margin-bottom: 15px;
+      }
+
+      .box .text {
+        padding: 10px;
+      }
+    }           
+
+.box {
+  display: flex;
+  align-items: center;
+  background-color: lightblue;
+  border: 3px dashed dimgray;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.box .text {
+  max-width: 600px;
+}
+
+    .education-section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0;
+    }
+
+    .edu-box {
+      display: flex;
+      align-items: center;
+      background-color: lightblue;
+      border: 3px dashed dimgray;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      padding: 15px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .edu-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .edu-box img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      margin-right: 15px;
+    }
+
+    .edu-text {
+      padding: 0;
+      margin: 0;
+    }
+
+    .edu-text h2 {
+      font-size: 20px;
+      margin: 0 0 10px 0;
+      padding: 0;
+    }
+
+    .edu-text h3 {
+    text-align: center;
+    font-family: cooperblack;
+    font-size: 25px;
+    margin-top: 40px; 
+    margin-bottom: 40px;
+    font-weight: bold;
+    }
+
+    .edu-text p {
+      margin: 0;
+      line-height: 1.5;
+      text-align: justify;
+      margin-right: 50px;
+    }
+
+    .edu-texts p {
+    text-align: center;
+    font-family: cooperblack;
+    background-color: lightblue;
+    padding: 23px; 
+    border-top: 2px solid black;
+    }
+
+    ul {
+      margin-right: 300px;
+    }
+
+ html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: 20px; 
+}
+
+.footer {
+  background-color: #d4eefc;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  border-top: 2px solid black; 
+}
+
+  </style>
+</head>
+<body>
+
+ </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+   <a href="website_riena.html"  target="_blank">HOME PAGE</a>
+   <a href="experience.html"  target="_blank">EXPERIENCES</a>
+   <a href="education.html"  target="_blank">EDUCATION</a>
+   <a href="family.html"  target="_blank">FAMILY</a>
+   <a href="gallery.html"  target="_blank">GALLERY</a>
+   <a href="contacts.html"  target="_blank">CONTACTS</a>
+  </div>
+
+   <link rel="stylesheet" href="prw.css">
+    <div class="container">
+      <div class="edu-text">
+      <h3>EDUCATIONAL BACKGROUND</h3>
+      <div class="edu-box">
+      <img src="images/tabika.jpg" alt="Tabika Kemas">
+      <div class="edu-text">
+       <h2>TABIKA KEMAS MARKAS BRIGED TENGAH PGA (2010-2010)</h2>
+        <p>My educational journey officially began at TABIKA KEMAS in 2010 when I turned 6 years old, a small yet meaningful place that introduced me to the world of learning. I was just a child but I still remember the colourful classrooms, the cheerful songs we sang every morning and the simple joy of learning how to hold a pencil, draw shapes and recite alphabets. This was where I first developed a sense of curiosity and excitement about discovering new things. Although it was only for a short period, it laid a beautiful foundation for my early childhood development and left me with warm memories of my first classroom.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="box reverse">
+      <a href="https://www.facebook.com/SKTC1989/"><img src="images/cuepacs.jpg" alt="Sekolah Kebangsaan Taman Cuepacs"></a>
+      <div class="edu-text">
+        <h2>SEKOLAH KEBANGSAAN TAMAN CUEPACS (2011-2016)</h2>
+        <p>From 2011 to 2016, I studied at Sekolah Kebangsaan Taman Cuepacs, where I experienced the core years of my primary education. It was during this time that I learned essential academic skills like reading, writing and mathematics but even more importantly, I learned about friendship, teamwork and personal growth. The supportive environment provided by my teachers helped me develop confidence in myself and nurtured my love for learning. I participated in various school activities, formed meaningful friendships and built early habits of discipline and perseverance. These were the years that taught me the value of consistency and good character.</p>
+      </div>
+    </div> 
+
+ <div class="edu-box">
+      <a href="https://www.facebook.com/kafaipga.cheras/"><img src="images/kafa.jpg" alt="Sekolah KAFA Integrasi Markas Briged Tengah PGA"></a>
+      <div class="edu-text">
+        <h2>SEKOLAH KAFA INTEGRASI MARKAS BRIGED TENGAH PGA (2011-2016)</h2>
+        <p>While attending primary school during the day, I also studied at Sekolah KAFA Integrasi in the evenings. This religious institution played a crucial role in shaping my spiritual and moral foundation. Here, I learned how to recite the Quran, perform daily prayers, and understand key aspects of Islamic teachings. Despite having a busy schedule, I looked forward to KAFA classes because they offered a different kind of knowledge, one that focused on faith, discipline and inner values. It taught me patience, respect and the importance of balancing both academic and spiritual education in life.</p>
+      </div>
+    </div>
+
+
+ <div class="box reverse">
+      <a href="https://www.facebook.com/smkbbslhebat2020/?locale=ms_MY"><img src="images/bbsl1.jpg" alt="Sekolah Menengah Kebangsaan Bandar Baru Sungai Long"></a>
+      <div class="edu-text">
+        <h2>SEKOLAH MENENGAH KEBANGSAAN BANDAR BARU SUNGAI LONG (2017-2021)</h2>
+        <p>My secondary school journey began in 2017 at SMK Bandar Baru Sungai Long, where I spent five transformative years. This period was full of growth of academically, socially and personally. I began to explore my interests more deeply, understand my strengths and weaknesses and take on greater responsibilities both inside and outside the classroom. I participated in school programs, made strong connections with peers and learned to manage the challenges of teenage life and academic expectations. These years helped shape my identity and set the direction for what I wanted to pursue after school. It was a time of self discovery and learning how to step out of my comfort zone.</p>
+      </div>
+    </div>
+
+  <div class="edu-box">
+      <a href="https://kelantan.uitm.edu.my/index.php/en/"><img src="images/uitm_logo.png" alt="Universiti Teknologi MARA">
+      <div class="edu-text"></a>
+        <h2>UNIVERSITI TEKNOLOGI MARA (2023-RECENT)</h2>
+        <p>In 2023, I took the next step in my academic journey by enrolling in Universiti Teknologi MARA (UiTM) Cawangan Kelantan, Kampus Machang to pursue my diploma. This chapter marks a new level of independence and responsibility in my life. Being in a university environment has allowed me to grow intellectually and emotionally. I am gaining in depth knowledge in my field of study, meeting people from different backgrounds and learning important skills like time management, teamwork and critical thinking. Every semester comes with its own challenges but also with new achievements and lessons. Studying at UiTM has not only expanded my academic capabilities but also helped me grow as a confident and motivated individual preparing for a brighter future.</p>
+      </div>
+    </div>
+
+ <div class="edu-text">
+      <h3>ACCOMPLISHMENT</h3>
+      <link rel="stylesheet" href="prw.css">
+    <div class="container">
+      <div class="edu-box">
+      <img src="images/sktc.jpg" alt="Sekolah Kebangsaan Taman Cuepacs">
+      <div class="edu-text">
+       <h2>SEKOLAH KEBANGSAAN TAMAN CUEPACS (2011-2016)</h2>
+       <ul style="list-style-type: square;">
+          <li>Handball Club Secretary 2012</li>
+          <li>Hulu Langat District Level Percussion Instrument Competition (Level 2) and Music and Movement (Level 1) 2013</li>
+          <li>Class Leader Award 2013</li>
+          <li>Bronze Award Flower Stand Competition (Primary School) 2016</li>
+          <li>Prefect Treasurer 2016</li>
+          <li>Squad Leader of Pergerakan Puteri Islam 2016</li>
+          <li>Vice Chairman Of School Crime Prevention Club 2016</li>
+          <li>Jawhite Level Sapphire Program (Bronze Medal) 2016</li>
+       </ul>
+      </div>
+    </div>
+  </div>
+
+    <div class="box reverse">
+      <img src="images/kafa2.jpg" alt="Sekolah KAFA Integrasi Markas Briged Tengah PGA">
+      <div class="edu-text">
+        <h2>SEKOLAH KAFA INTEGRASI MARKAS BRIGED TENGAH PGA (2011-2016)</h2>
+        <ul style="list-style-type: square;">
+          <li>Islamic Practical Skills For Religious Primary Schools (KAMIL) Langat Zone Level 2015</li>
+          <li>Prefectorial Board Kafa Integrasi Markas Briged Tengah PGA Cheras 2013-2016</li>
+        </ul>
+      </div>
+    </div>
+
+<div class="container">
+      <div class="edu-box">
+      <img src="images/bbsl.jpg" alt="Sekolah Menengah Kebangsaan Bandar Baru Sungai Long">
+      <div class="edu-text">
+       <h2>SEKOLAH MENENGAH KEBANGSAAN BANDAR BARU SUNGAI LONG (2017-2021)</h2>
+        <ul style="list-style-type: square;">
+          <li>Best Student Award For The Entire Grade One 2017</li>
+          <li>Meritorious Student Quality Award 2017</li>
+          <li>Secretary Islamic Education Association 2018</li>
+          <li>Meritorious Student HEM Quality Award 2019 </li>
+          <li>Hulu Langat District Secondary School Police Cadet Corps Camp (IPD KAJANG) 2019</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+    <div class="box reverse">
+      <img src="images/uitm2.jpg" alt="Universiti Teknologi MARA">
+      <div class="edu-text">
+        <h2>UNIVERSITI TEKNOLOGI MARA (2023-RECENT)</h2>
+        <ul style="list-style-type: square;">
+          <li>Dean's Award Session 1 2022/2023</li>
+          <li>Active Member of the ORC Club </li>
+          <li>Participant of the ILP Student Development Program</li>
+          <li>Participant of the Outreach Class on Records and Archives Management Research</li>
+          <li>Participant of the Library Briefing at Perpustakaan Tengku Anis (PTA)</li>
+        </ul>
+      </div>
+    </div>
+
+    
+    <footer class="edu-texts">
+        <p>Copyright © 2025 - Nureen Fatini Afriena Binti Nor Azwan. All Rights Reserved.</p>
+    </footer>
+
+
+</body>
+</html>

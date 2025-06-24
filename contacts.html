@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>contacts</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'cooperblack', sans-serif;
+      background-image: url(images/cloud.jpg);
+    }
+
+    .wrapper {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      display: flex;
+      background-color: lightblue;
+      font-family: cooperblack;
+      justify-content: center;
+      border: 3px solid transparent;
+      border-top: 3px solid black;
+      border-bottom: 3px solid black;
+    }
+
+    .navbar a {
+      padding: 14px 20px;
+      text-decoration: none;
+      color: black;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      background-color: lightgray;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      flex-direction: row-reverse;
+      flex: 1;
+    }
+
+    .left {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .photo-frame {
+      border: 5px solid black;
+      padding: 10px;
+      width: fit-content;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      margin-left: 50px;
+      transition: transform 0.3s ease;
+    }
+
+    .photo-frame img {
+      width: 300px;
+      height: auto;
+      display: block;
+    }
+
+    .photo-frame:hover {
+      transform: scale(1.03);
+    }
+
+    .animated-text {
+      font-family: 'Great Vibes', cursive;
+      font-size: 45px;
+      font-weight: bold;
+      color: #000;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid;
+      width: 0;
+      animation: typing 8s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+      0% { width: 0 }
+      50% { width: 100% }
+      80% { width: 100% }
+      100% { width: 0 }
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: black }
+    }
+
+    .edu-text h2, .edu-text h3 {
+      margin-top: 15px;
+      text-align: center;
+      font-family: Arial Black;
+      font-size: 23px;
+    }
+
+    .icons a {
+      margin-right: 25px;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      color: #000;
+      text-decoration: none;
+      transition: transform 0.10s;
+    }
+
+    .icons a:hover {
+      transform: scale(1.3);
+      color: #555;
+    }
+
+    .right {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .footer {
+      background-color: #d4eefc;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+   
+<link rel="stylesheet" href="prw.css">
+    <div class="navbar">
+      <a href="website_riena.html"  target="_blank">HOME PAGE</a>
+      <a href="experience.html"  target="_blank">EXPERIENCES</a>
+      <a href="education.html"  target="_blank">EDUCATION</a>
+      <a href="family.html"  target="_blank">FAMILY</a>
+      <a href="gallery.html"  target="_blank">GALLERY</a>
+      <a href="contacts.html"  target="_blank">CONTACTS</a>
+    </div>
+
+    <div class="container">
+      <div class="right">
+        <div class="photo-frame">
+          <img src="images/contacts.jpg" alt="Afriena">
+        </div>
+      </div>
+
+      <div class="left">
+        <h1 class="animated-text">Thank you for visiting Afriena's personal website!!</h1>
+
+        <div class="edu-text">
+          <h3>CONTACT ME THROUGH GMAIL:</h3>
+          <p style="font-size: 20px; font-family: sans-serif;"><i>afrienazwan21@gmail.com</i></p>
+          <h3>OR</h3>
+          <div class="icons">
+            <a href="https://www.instagram.com/dearriena/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/dearriena" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/afrienaneirfa/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://wa.link/d294ba" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright © 2025 - Nureen Fatini Afriena Binti Nor Azwan. All Rights Reserved.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
